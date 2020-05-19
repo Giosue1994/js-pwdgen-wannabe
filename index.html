@@ -4,9 +4,35 @@
     <meta charset="utf-8">
     <title>Password</title>
   </head>
-  <body>
 
-    <h1 id="password"></h1>
+  <style media="screen">
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: rgb(131,58,180);
+      background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+      font-family: arial;
+    }
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 60px;
+      height: 100vh;
+    }
+    h1 {
+      text-shadow: 2px 2px 4px lightgrey;
+    }
+  </style>
+
+  <body>
+    <div class="wrapper">
+      <h1 id="password"></h1>
+    </div>
 
     <script type="text/javascript" src="js/script.js"></script>
   </body>

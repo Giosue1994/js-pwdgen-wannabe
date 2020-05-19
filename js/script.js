@@ -8,5 +8,6 @@ var annoCorrente = prompt("Inserisci l'anno corrente");
 
 var sottrazione = annoCorrente - 2000;
 
+var password = nomeUtente + cognomeUtente + colorePreferito + sottrazione;
 
-document.getElementById('password').innerHTML = 'La tua password è ' + nomeUtente + cognomeUtente + colorePreferito + sottrazione;
+document.getElementById('password').innerHTML = 'LA TUA PASSWORD È:<br>' + password;
